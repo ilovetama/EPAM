@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-class Shop {
+public class Shop {
 
     private final String shopName;
     private final ArrayList<Customer> customersList = new ArrayList<>();

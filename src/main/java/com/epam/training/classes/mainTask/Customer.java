@@ -21,23 +21,15 @@ class Customer {
         this.cardNumber = cardNumber;
         this.bankAccount = bankAccount;
     }
+
     public String getName() {
         return name;
     }
     public String getSurname() {
         return surname;
     }
-    public String getPatronymic() {
-        return patronymic;
-    }
-    public String getAddress() {
-        return address;
-    }
     public long getCardNumber() {
         return cardNumber;
-    }
-    public long getBankAccount() {
-        return bankAccount;
     }
     public String toString() {
         return String.format("id: %2d %10s %15s\t %12s\t %10s\t card number %18d\t bank account %d",
